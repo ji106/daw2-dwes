@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 40px;
+
+    p {
+        margin: 6px 0;
+    }
+}
+
+.fase {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        color: #0044ff;
+        margin: 0 0 20px;
+    }
+
+    h3 {
+        color: #333;
+        margin-top: 25px;
+    }
+
+    hr {
+        border: none;
+        border-top: 2px solid #0044ff;
+        margin: 10px 0 15px;
+    }
+
+    .ok {
+        color: #2e7d32;
+        font-weight: bold;
+    }
+
+    .error {
+        color: #c62828;
+        font-weight: bold;
+    }
+
+    .info {
+        color: #1c7ed6;
+        font-weight: bold;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: #f1f1f1;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 5px solid #2b91f8;
+        }
+    }
+
+    .nombreMascota {
+        font-weight: bold;
+    }
+
+    .NUEVO {
+        background-color: #4fc3f7;
+        color: #fff;
+        padding: 2px 8px;
+        border-radius: 4px;
+        margin-left: 6px;
+    }
+
+    .POPULAR {
+        background: #e53936;
+        color: #fff;
+        padding: 2px 8px;
+        border-radius: 4px;
+        margin-left: 6px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        label {
+            font-weight: bold;
+            color:  #0044ff;
+        }
+
+        input, select {
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #0044ff;
+            color: #fff;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 15px;
+            margin-top: 8px;
+
+            &:hover {
+                background-color: #0033cc;
+            }
+        }
+    }
+}

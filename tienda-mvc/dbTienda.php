@@ -56,6 +56,4 @@ class dbTienda {
         return $this->conexion->query($sql);
     }
 }
-
-
 ?>

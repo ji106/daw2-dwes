@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+
+    .fase {
+        background: white;
+        padding: 20px;
+        max-width: 900px;
+        margin: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        a {
+            text-decoration: none;
+            color: #0077cc;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        table {
+            margin-top: 20px;
+            width: 100%;
+            border-collapse: collapse;
+
+            th {
+                background: #0077cc;
+                color: white;
+                padding: 10px;
+                text-align: left;
+            }
+
+            td {
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+            }
+
+            tr:hover {
+                background: #eef7ff;
+            }
+        }
+
+        .vendido {
+            color: red;
+            font-weight: bold;
+        }
+
+        .disponible {
+            color: green;
+            font-weight: bold;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+            
+            label {
+                font-weight: bold;
+            }
+            
+            input {
+                padding: 10px;
+                border: 1px solid #aaa;
+                border-radius: 5px;
+            }
+
+            button {
+                background: #0077cc;
+                color: white;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+
+                &:hover {
+                    background: #005fa3;
+                }
+            }
+        }
+
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+
+        .success {
+            color: green;
+            font-weight: bold;
+        }
+    }
+}
